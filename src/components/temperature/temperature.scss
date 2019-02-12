@@ -1,0 +1,40 @@
+.cardTemperature {
+  font-size: 8em;
+  line-height: 0;
+  font-weight: 300;
+  margin-left: -0.025em;
+  margin-bottom: 0.4em;
+  &:after {
+    content: '°';
+    position: relative;
+    font-size: .5em;
+    top: -.7em;
+    right: 0;
+  }
+}
+
+.minTemp {
+  font-size: 2em;
+  font-weight: 300;
+  margin-left: -0.025em;
+  margin-bottom: 0.1em;
+  &:before{
+    content: 'Low: ';
+  }
+  &:after {
+    content: '°';
+  }
+}
+
+.maxTemp {
+  font-size: 2em;
+  font-weight: 300;
+  margin-left: -0.025em;
+  margin-bottom: 0.4em;
+  &:before{
+    content: 'High: '
+  }
+  &:after {
+    content: '°';
+  }
+}
